@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import Moment from 'moment';
 import Footer from "../components/Footer"
 import { useAppContext } from "../../context/AppContext";
-import toast from 'react-hot-toast';
+import {toast} from 'react-hot-toast';
 
 const Blog = () => {
   const {id} = useParams(); //we need to get the id from the url and then fetch the blog data based on the id, we store the blog data in a state variable
