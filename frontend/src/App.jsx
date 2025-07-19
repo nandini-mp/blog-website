@@ -12,7 +12,6 @@ import 'quill/dist/quill.snow.css'
 import {Toaster} from 'react-hot-toast'
 import { useAppContext } from "../context/AppContext"
 
-
 const App = () => {
 
   const {token} = useAppContext()
